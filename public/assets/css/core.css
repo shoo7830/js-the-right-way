@@ -9,6 +9,15 @@ body {
     padding: 0;
 }
 
+.rtl {
+	direction: rtl;
+}
+.rtl section h3,
+.rtl section p {
+    float: right;
+}
+
+
 .wrapper {
     width: 80%;
     position: relative;
@@ -25,6 +34,11 @@ body {
 
 .gh-follow-button {
     margin-left: -4px;
+}
+
+.adsbygoogle {
+    height: 90px;
+    display: block;
 }
 
 header {
@@ -140,7 +154,7 @@ header small {
 .social {
     text-align: center;
     width: 100%;
-    height: 105px;
+    height: 172px;
     background: #1A7594;
     float: left;
 }
@@ -161,7 +175,7 @@ header small {
 }
 
 .share .twitter-share-button {
-    width: 100px !important;
+    width: 72px !important;
 }
 
 .welcome {
@@ -471,6 +485,13 @@ header small {
     width: inherit;
 }
 
+#top-banner,
+#mid-banner,
+#foot-banner {
+    background: #505050;
+    text-align: center;
+}
+
 .source {
     color: #FFF !important;
     margin-top: -16px;
@@ -702,4 +723,28 @@ iframe[id^="oauth2relay"]{
     .contributors {
         padding-top: 15px;
     }
+}
+
+/* github corner */
+.github-corner:hover .octo-arm{
+	animation:octocat-wave 560ms ease-in-out
+}
+@keyframes octocat-wave{
+	0%,100%{
+		transform:rotate(0)}
+	20%,60%{
+		transform:rotate(-25deg)
+	}
+	40%,80%{
+		transform:rotate(10deg)
+	}
+}
+
+@media (max-width:500px){
+	.github-corner:hover .octo-arm{
+		animation:none
+	}
+	.github-corner .octo-arm{
+		animation:octocat-wave 560ms ease-in-out
+	}
 }

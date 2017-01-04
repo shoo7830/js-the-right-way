@@ -3,6 +3,7 @@
       "title":"JS: The Right Way",
       "description":"学习 JavaScript 的最佳快速指南 -- 来自网上的代码风格和教程链接"
   },
+  "direction": "ltr",
   "welcome": "{{@link=partials/welcome.html}}",
   "menu": {
     "title": "选择你想看的主题",
@@ -123,7 +124,7 @@
         {
           "name":"DexterJS",
           "url":"https://github.com/leobalter/DexterJS",
-          "description":"模擬函数及 XHR 对象的测试帮助工具，由 <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a> 维护。"
+          "description":"模拟函数及 XHR 对象的测试帮助工具，由 <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a> 维护。"
         }
     ]
   },
@@ -151,7 +152,7 @@
           {
             "name":"Dojo Toolkit",
             "url":"http://dojotoolkit.org",
-            "description":"Dojo 是一个免费、开源的 JavaScript 工具包，用來建立高效能的网站应用。赞助商商有  IBM 及 SitePen。"
+            "description":"Dojo 是一个免费、开源的 JavaScript 工具包，用来建立高效能的网站应用。赞助商有  IBM 及 SitePen。"
           },
           {
             "name":"Underscore.js",
@@ -206,12 +207,12 @@
           {
             "name":"Riot.js",
             "url":"http://www.riotjs.com/",
-            "description":"Riot 是快速且功能强大的轻量客户端（MV*）函数库，用于创建大型的网络应用。 尽管它的体积很小，但却包含以下組成：模版引擎、路由、事件函数库及标准的 MVP 模式，让代码保持模块化。"
+            "description":"Riot 是快速且功能强大的轻量客户端（MV*）函数库，用于创建大型的网络应用。 尽管它的体积很小，但却包含以下组成：模版引擎、路由、事件函数库及标准的 MVP 模式，让代码保持模块化。"
           },
           {
             "name":"CanJS",
             "url":"http://canjs.com",
-            "description":"CanJS 是一个可以让开发复杂应用程序变得简单且快速的框架。 学习简单、轻巧并且不改变你的应用结构，同同时更提供一些新的功能，如自定义标签和双向绑定。"
+            "description":"CanJS 是一个可以让开发复杂应用程序变得简单且快速的框架。 学习简单、轻巧并且不改变你的应用结构，同时更提供一些新的功能，如自定义标签和双向绑定。"
           }
         ]
       },
@@ -251,7 +252,7 @@
           {
             "name":"TweenJS",
             "url":"http://www.createjs.com/tweenjs",
-            "description":"一个简单且强大的 JavaScript 函数库，用來建立 HTML5 的。"
+            "description":"一个简单且强大的 JavaScript 函数库，用来建立 HTML5 的。"
           },
           {
             "name":"Move.js",
@@ -361,11 +362,6 @@
           {
             "name":"JavaScript.com",
             "url":"http://javascript.com",
-            "description":""
-          },
-          {
-            "name":"DailyJS",
-            "url":"http://dailyjs.com",
             "description":""
           },
           {
@@ -791,8 +787,8 @@
         "description":""
       },
       {
-        "name":"dotCloud",
-        "url":"http://getupcloud.com/index_en.html",
+        "name":"Getup",
+        "url":"http://getupcloud.com/en/",
         "description":""
       },
       {

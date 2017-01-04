@@ -3,6 +3,7 @@
       "title":"JS: The Right Way",
       "description":"A quick reference to best practices for writing JavaScript -- links to code patterns and tutorials from around the web"
   },
+  "direction": "ltr",
   "welcome": "{{@link=partials/welcome.html}}",
   "menu": {
     "title": "Choose your path",
@@ -124,6 +125,16 @@
           "name":"DexterJS",
           "url":"https://github.com/leobalter/DexterJS",
           "description":"A test helper to mock functions and the XHR object, maintained by <a target=\"_blank\" href=\"http://leobalter.github.io\">Leo Balter</a>"
+        },
+        {
+          "name":"AVA",
+          "url":"https://github.com/sindresorhus/ava",
+          "description":"Test runner with asynchronous tests, maintained by <a target=\"_blank\" href=\"https://twitter.com/sindresorhus\">Sindre Sorhus</a>"
+        },
+	{
+	 "name":"Jest",
+	 "url":"https://github.com/facebook/jest",
+	 "description":"Painless JavaScript Testing, maintained by <a target=\"_blank\" href=\"https://github.com/facebook\">Facebook</a>"
         }
     ]
   },
@@ -224,6 +235,11 @@
             "description":"Built by Facebook. React is a JavaScript library for creating user interfaces by Facebook and Instagram. Many people choose to think of React as the V in MVC."
           },
           {
+            "name":"Vue.js",
+            "url":"http://www.vuejs.org",
+            "description":"Is an MVVM library providing two-way data binding, HTML extended behaviour (through directives) and reactive components. By using native add-ons a developer can also have routing, AJAX, a Flux-like state management, form validation and more. Provides a helpful Chrome extension to inspect components built with Vue."
+          },
+          {
             "name":"Handlebars",
             "url":"http://handlebarsjs.com",
             "description":"Handlebars provides the power necessary to let you build semantic templates effectively with no frustration."
@@ -238,6 +254,11 @@
       {
         "title":"Animation",
         "links":[
+         {
+            "name":"GSAP",
+            "url":"http://greensock.com/",
+            "description":"GSAP is the fastest full-featured scripted animation tool on the planet. It's even faster than CSS3 animations and transitions in many cases."
+          },
           {
             "name":"Velocity.js",
             "url":"http://julian.com/research/velocity/",
@@ -349,6 +370,16 @@
         "name":"PandaJS",
         "url":"http://www.pandajs.net",
         "description":"Panda.js is a HTML5 game engine for mobile and desktop with Canvas and WebGL rendering."
+      },
+      {
+        "name":"Rot.js",
+        "url":"https://github.com/ondras/rot.js",
+        "description":"Rot.js is a set of JavaScript libraries, designed to help with a roguelike development in browser environment."
+      },
+      {
+        "name":"Isogenic",
+        "url":"http://www.isogenicengine.com/",
+        "description":"Isogenic is an advanced game engine that provides the most advanced networking and realtime multiplayer functionality available in any HTML 5 game engine. The system is based on entity streaming and includes powerful simulation options and client-side entity interpolation from delta updates. "
       }
     ]
   },
@@ -361,11 +392,6 @@
           {
             "name":"JavaScript.com",
             "url":"http://javascript.com",
-            "description":""
-          },
-          {
-            "name":"DailyJS",
-            "url":"http://dailyjs.com",
             "description":""
           },
           {
@@ -573,6 +599,11 @@
             "description":"by <a target=\"_blank\" href=\"https://twitter.com/ded\">Dustin Diaz</a>"
           },
           {
+            "name":"Learning JavaScript Design Patterns",
+            "url":"https://addyosmani.com/resources/essentialjsdesignpatterns/book/",
+            "description":"by <a target=\"_blank\" href=\"http://twitter.com/addyosmani\">Addy Osmani</a>"
+          },
+          {
             "name":"Secrets of the JavaScript Ninja",
             "url":"http://jsninja.com",
             "description":"by <a target=\"_blank\" href=\"http://ejohn.org\">John Resig</a>"
@@ -595,7 +626,7 @@
           {
             "name":"You Don't Know JS",
             "url":"https://github.com/getify/You-Dont-Know-JS",
-            "description":"by <a target=\"_blank\" href=\"https://github.com/getify\">>Kyle Simpson</a>"
+            "description":"by <a target=\"_blank\" href=\"https://github.com/getify\">Kyle Simpson</a>"
           },
           {
             "name":"You Might Not Need jQuery",
@@ -619,8 +650,13 @@
           },
           {
             "name":"JavaScript Allongé",
-            "url":"https://leanpub.com/javascript-allonge",
+            "url":"https://leanpub.com/javascriptallongesix",
             "description":"by <a target=\"_blank\" href=\"http://raganwald.com\">Reginald Braithwaite</a>"
+          },
+          {
+            "name":"Exploring ES6",
+            "url":"http://exploringjs.com/es6/",
+            "description":"by <a target=\"_blank\" href=\"http://www.rauschma.de\">Axel Rauschmayer</a>"
           },
           {
             "name":"JSBooks",
@@ -710,7 +746,7 @@
       },
       {
         "name":"JavaScript Jabber",
-        "url":"http://javascriptjabber.com",
+        "url":"https://devchat.tv/js-jabber/",
         "description":""
       },
       {
@@ -731,6 +767,11 @@
       {
         "name":"JSConf",
         "url":"https://www.youtube.com/user/jsconfeu",
+        "description":""
+      },
+      {
+        "name":"JavaScript Air",
+        "url":"http://javascriptair.com/",
         "description":""
       }
     ]
@@ -791,8 +832,8 @@
         "description":""
       },
       {
-        "name":"dotCloud",
-        "url":"http://getupcloud.com/index_en.html",
+        "name":"Getup",
+        "url":"http://getupcloud.com/en/",
         "description":""
       },
       {
@@ -848,6 +889,24 @@
         "description":""
       },
       {
+        "name":"Webpack",
+        "img":"webpack-logo.png",
+        "url":"https://webpack.github.io/",
+        "description":""
+      },
+      {
+        "name":"Rollup",
+        "img":"rollup-logo.png",
+        "url":"http://rollupjs.org/",
+        "description":""
+      },
+      {
+        "name":"Browserify",
+        "img":"browserify-logo.png",
+        "url":"http://browserify.org/",
+        "description":""
+      },
+      {
         "name":"todo mvc",
         "img":"todomvc-logo.png",
         "url":"http://todomvc.com",
@@ -868,6 +927,8 @@
     {"url":"de-de","name":"German"},
     {"url":"en-us","name":"English"},
     {"url":"zh-tw","name":"繁體中文"},
-    {"url":"zh-cn","name":"简体中文"}
+    {"url":"zh-cn","name":"简体中文"},
+    {"url":"fa-ir","name":"فارسی"},
+    {"url":"ru-ru","name":"Русский"}
   ]
 }

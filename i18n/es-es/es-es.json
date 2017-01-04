@@ -3,6 +3,7 @@
       "title":"JS: La forma correcta",
       "description":"Una referencia a las mejores prácticas para escribir código JavaScript -- enlaces de patrones de código y tutoriales alrededor de la web"
   },
+  "direction": "ltr",
   "welcome": "{{@link=partials/welcome.html}}",
   "menu": {
     "title": "Elije tu camino",
@@ -361,11 +362,6 @@
           {
             "name":"JavaScript.com",
             "url":"http://javascript.com",
-            "description":""
-          },
-          {
-            "name":"DailyJS",
-            "url":"http://dailyjs.com",
             "description":""
           },
           {
@@ -791,8 +787,8 @@
         "description":""
       },
       {
-        "name":"dotCloud",
-        "url":"http://getupcloud.com/index_en.html",
+        "name":"Getup",
+        "url":"http://getupcloud.com",
         "description":""
       },
       {
